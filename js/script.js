@@ -3,10 +3,10 @@ var app = angular.module("myModule", []);
 app.controller('myController', ['$scope', function($scope){
 	var employees = [
 		{name: "Rahul", role: "Designer", salary: "Rs. 200000" },
-		{name: "Rahul", role: "Designer", salary: "Rs. 253687" },
-		{name: "Rahul", role: "Designer", salary: "Rs. 789654" },
-		{name: "Rahul", role: "Designer", salary: "Rs. 938526" },
-		{name: "Rahul", role: "Designer", salary: "Rs. 963288" }
+		{name: "Ajay", role: "Designer", salary: "Rs. 253687" },
+		{name: "Sharuk", role: "Designer", salary: "Rs. 789654" },
+		{name: "Salman", role: "Designer", salary: "Rs. 938526" },
+		{name: "Deepika", role: "Designer", salary: "Rs. 963288" }
 	];
 	$scope.employees = employees;
 
